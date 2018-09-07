@@ -1,0 +1,13 @@
+$(document).ready(function(){
+	$("#start").click(function(){
+		$("#1Question").show();
+		$("#1QuestionP").show();
+		$("#start").hide();
+	})
+	$("#next").click(function(){
+		$("#1Question").hide();
+		$("#1Question").hide();
+		$("#2Question").show();
+		$("#2QuestionP").show();
+	})
+})
