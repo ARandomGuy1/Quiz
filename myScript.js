@@ -6,7 +6,7 @@ $(document).ready(function(){
 	})
 	$("#next").click(function(){
 		$("#1Question").hide();
-		$("#1Question").hide();
+		$("#1QuestionP").hide();
 		$("#2Question").show();
 		$("#2QuestionP").show();
 	})
