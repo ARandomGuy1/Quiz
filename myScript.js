@@ -12,6 +12,7 @@ $(document).ready(function(){
 		$("#2QuestionP").show();
 		$("#next").hide();
 		$("#next1").show();
+		$("body").css({"background-color":"blue"});
 	})
 	
 	$("#next1").click(function(){
@@ -21,6 +22,7 @@ $(document).ready(function(){
 		$("#3QuestionP").show();
 		$("#next1").hide();
 		$("#next2").show();
+		$("body").css({"background-color":"blue"});
 	})
 	
 	$("#next2").click(function(){
@@ -30,6 +32,7 @@ $(document).ready(function(){
 		$("#4QuestionP").show();
 		$("#next2").hide();
 		$("#next3").show();
+		$("body").css({"background-color":"blue"});
 	})
 	
 	$("#next3").click(function(){
@@ -39,6 +42,7 @@ $(document).ready(function(){
 		$("#5QuestionP").show();
 		$("#next3").hide();
 		$("#next4").show();
+		$("body").css({"background-color":"blue"});
 	})
 	
 	$("#next4").click(function(){
@@ -48,6 +52,7 @@ $(document).ready(function(){
 		$("#6QuestionP").show();
 		$("#next4").hide();
 		$("#next5").show();
+		$("body").css({"background-color":"blue"});
 	})
 	
 	$("#correct").click(function(){
