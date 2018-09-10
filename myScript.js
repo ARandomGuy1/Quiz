@@ -55,11 +55,11 @@ $(document).ready(function(){
 		$("body").css({"background-color":"blue"});
 	})
 	
-	$("#correct").click(function(){
+	$(".correct").click(function(){
 		$("body").css({"background-color":"green"});
 	})
 	
-	$("#incorrect").click(function(){
+	$(".incorrect").click(function(){
 		$("body").css({"background-color":"red"});
 	})
 	
