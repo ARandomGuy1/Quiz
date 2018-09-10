@@ -50,4 +50,14 @@ $(document).ready(function(){
 		$("#next5").show();
 	})
 	
+	$("#correct").click(function(){
+		$("body").css({"background-color":"green"});
+	})
+	
+	$("#incorrect").click(function(){
+		$("body").css({"background-color":"red"});
+	})
+	
 })
+
+
