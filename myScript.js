@@ -55,6 +55,15 @@ $(document).ready(function(){
 		$("body").css({"background-color":"blue"});
 	})
 	
+	$("#next5").click(function(){
+		$("#6Question").hide();
+		$("#6QuestionP").hide();
+		$("#next5").hide();
+		$("#next").show();
+		$("#start").show();
+		$("body").css({"background-color":"blue"});
+	})
+	
 	$(".correct").click(function(){
 		$("body").css({"background-color":"green"});
 	})
